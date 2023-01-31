@@ -58,7 +58,17 @@ body {
 }
 
 .ai {
-  background: #40414F;
+  /* background: #40414F; */
+  /* background: brown; */
+  background-image: url("assets/ai-back-2.jpg");
+  /* background-repeat: no-repeat; */
+  /* background-color: #cccccc; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 80rem;
+  /* background-size: 100%; */
+  object-fit: cover;
 }
 
 .chat {
