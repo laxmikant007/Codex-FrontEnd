@@ -77,7 +77,10 @@ const handleSubmit = async (e) => {
 
 
   loader(messageDiv);
-  const response = await fetch('https://codex-backend-3wci.onrender.com/', {
+  // const response = await fetch('https://codex-backend-3wci.onrender.com/', {
+    const response = await fetch('https://codex-server-seven.vercel.app/', {
+      // const response = await fetch('http://localhost:5000/', {
+
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
